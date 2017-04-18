@@ -1,3 +1,2 @@
 # envfw
-Environment Framework
-For a more manageable bash/ksh shell environment.
+Environment Framework - for a more manageable bash/ksh shell environment.
