@@ -1,0 +1,10 @@
+# ---------------------------------------------------------------------
+# This is the LD_LIBRARY_PATH file. To add something to your 
+# LD_LIBRARY_PATH simply add an entry to this file, one directory path 
+# per line. Comments are indicated by a # in the first position of the 
+# line. Blank lines are allowed and do not affect the integrity of this 
+# file.
+# ---------------------------------------------------------------------
+$ORACLE_HOME/lib 
+/lib64
+/usr/lib64

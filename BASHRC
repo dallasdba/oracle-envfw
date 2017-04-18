@@ -1,0 +1,13 @@
+# ---------------------------------------------------------------------
+# The contents of this will be written to the .bashrc file each time
+# you refresh your environment. 
+# ---------------------------------------------------------------------
+
+# Set the temporary shell prompt
+if [ -n "$ORACLE_SID" ]; then
+   [ "$_SHELL_" = bash ] && export PS1="\n\[\e[34;1m\][`hostname|cut -f 1 -d .`:\u:${ORACLE_SID}] \`pwd\` \n> \[\e[0m\]"
+   [ "$_SHELL_" = ksh  ] && export PS1="$_NEWLINE_\[\e[34;1m\][`hostname|cut -f 1 -d .`:$LOGNAME:${ORACLE_SID}] "'$PWD'$_NEWLINE_'> \[\e[0m\]'
+else
+   [ "$_SHELL_" = bash ] && export PS1="\n\[\e[34;1m\][`hostname|cut -f 1 -d .`:\u] \`pwd\` \n> \[\e[0m\]"
+   [ "$_SHELL_" = ksh  ] && export PS1="$_NEWLINE_\[\e[34;1m\][`hostname|cut -f 1 -d .`:$LOGNAME] "'$PWD'$_NEWLINE_'> \[\e[0m\]'
+fi

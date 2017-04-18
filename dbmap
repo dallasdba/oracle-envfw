@@ -1,0 +1,14 @@
+# ---------------------------------------------------------------------------
+# This file is used to deal with Oracle RAC idioms that differe from the 
+# core RDBMS. At the time of this writing the differences are as follows:
+#
+#    o Database name and ORACLE_SID differ.
+#    o Location of listener must be different than
+#      that of other non-RAC databases on the system.
+#
+# Format: Whitespaces and blank lines allowed, comment character is #) :
+# 
+# ORACLE_SID : DATABASE_NAME
+# ---------------------------------------------------------------------------
++ASM1     : +ASM
++ASM2     : +ASM

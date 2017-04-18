@@ -1,0 +1,9 @@
+# ---------------------------------------------------------------------
+# The contents of this will be written to the .kshrc file each time
+# you refresh your environment. 
+# ---------------------------------------------------------------------
+set -o vi
+export PS1='${ORACLE_SID}:${_INITIALS_}:${PWD}> '
+export PS2='    >'
+export PS3='Enter selection> '
+export PS4='+ '

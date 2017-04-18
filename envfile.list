@@ -1,0 +1,12 @@
+# ---------------------------------------------------------------------
+# This is the environment list file. It contains a list of additional 
+# environment scripts you wish to have executed (dotted/sourced) into
+# your current environment. This file is parsed by the main environment
+# file 'main.env'. 
+# By convention, environment files have an extension of '.env'. this is
+# NOT required but is usually the recommended naming method. As in one
+# case below 'SystemType.sh' you may wish to not rename a file you 
+# got from someone else. This is fine. Just add the file to this list 
+# and it will be sourced into the environment that calls main.env.
+# ---------------------------------------------------------------------
+misc.env

@@ -1,0 +1,28 @@
+# ---------------------------------------------------------------------
+# This is the ALIAS file. Aliases are defined in a key=value format. 
+# Each time the environment is refreshed, these alias definitions are 
+# used to create aliases in the .kshrc or .bashrc file.
+# ---------------------------------------------------------------------
+bdump='cd $_BACKGROUND_DUMP_DEST_'
+cdump='cd $_CORE_DUMP_DEST_'
+udump='cd $_USER_DUMP_DEST_'
+adump='cd ${ORACLE_BASE}/admin/${_DB_UNIQUE_NAME_}/adump'
+create='cd ${ORACLE_BASE}/admin/${_DB_UNIQUE_NAME_}/create'
+pfile='cd ${ORACLE_BASE}/admin/${_DB_UNIQUE_NAME_}/pfile'
+onet='[ -n "$TNS_ADMIN" ] && cd $TNS_ADMIN || cd $ORACLE_HOME/network/admin'
+obin='cd $ORACLE_HOME/bin'
+ohome='cd $ORACLE_HOME'
+dbs='cd $ORACLE_HOME/dbs'
+ll='ls -l'
+lt='ls -ltr'
+talert='tail -f $_ALERT_LOG_'
+alert='view $_ALERT_LOG_'
+cls='clear'
+dir='ls -la |more'
+dirx='ls -lat |more'
+
+dbabin='cd ~/dba/bin'
+dbalog='cd ~/dba/log'
+dbaetc='cd ~/dba/etc'
+dbatmp='cd ~/dba/tmp'
+dbascr='cd ~/dba/scripts'

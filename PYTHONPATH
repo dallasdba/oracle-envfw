@@ -1,0 +1,7 @@
+# ---------------------------------------------------------------------
+# This is the PYTHONPATH file. To add something to your PYTHONPATH
+# simply add an entry to this file, one directory per line.
+# Comments are indicated by a # in the first position of the line.
+# Blank lines are allowed and do not affect the integrity of this file.
+# ---------------------------------------------------------------------
+~/dba/pylib

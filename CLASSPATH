@@ -1,0 +1,14 @@
+# ---------------------------------------------------------------------
+# This is the CLASSPATH file. To add something to your CLASSPATH
+# simply add an entry to this file, one directory path per line.
+# Comments are indicated by a # in the first position of the line.
+# Blank lines are allowed and do not affect the integrity of this file.
+# ---------------------------------------------------------------------
+
+# For Oracle Java Runtime Engine
+# --------------------------------
+# $JAVAHOME/lib/rt.jar
+# $ORACLE_HOME/jdbc/lib/classes12.jar
+# $ORACLE_HOME/jdbc/lib/classes12.zip
+# $ORACLE_HOME/jdbc/lib/ojdbc14.jar
+# $ORACLE_HOME/jdk/lib/tools.jar
