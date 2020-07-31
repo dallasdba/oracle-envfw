@@ -4,4 +4,4 @@
 # Comments are indicated by a # in the first position of the line.
 # Blank lines are allowed and do not affect the integrity of this file.
 # ---------------------------------------------------------------------
-~/dba/pylib
+$HOME/dba/pylib
